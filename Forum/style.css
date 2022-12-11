@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=The+Nautigal:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  background-color: #fff;
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.logo {
+  color: #DAA520;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+}
+
+
+.container-fluid{
+  margin: auto;
+  position:absolute;
+  background-color: #000;
+}
+
+.navigation{
+  float: right;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  margin-right: 25%;
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation li a{
+  color: #fff;
+  text-decoration: none;
+  padding:5px 10px;
+  font-size: 16px;
+  transition: 0.8s ease;
+}
+
+.navigation li a:hover{
+  color: #000;
+  background-color:#DAA520;
+  border-radius: 15px;
+}
+
+
+.logo img{
+  width: 100px;
+  height: auto;
+  mix-blend-mode: multiply;
+  filter: brightness(1.75);
+  float:left;
+}
+
+.content{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.title h1{
+  color: #e96b00;
+}
+
+
+
+.comments{
+  margin-top: 20px;
+  max-height: 450px;
+  overflow-y: scroll;
+  padding: 40px 10px 10px 10px;
+  height: 250px;
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 10px rgba(1 1 1 / 20%);
+  border-radius: 5px;
+  width: 95%;
+}
+
+.comments img{
+  border-radius: 50%;
+  height: 50px;
+}
+
+.comments::-webkit-scrollbar {
+  display: none;
+}
+.textarea{
+  padding-top: 100px;
+  width: 70%;
+  padding-left: 20%;
+}
+
+.comment{
+  display: flex;
+  margin-bottom: 50px;
+  border-bottom: 1px solid orange;
+}
+.comment-username{
+  width: 20%;
+  margin-left: 10px;
+}
+
+.comment-username h3{
+  color: orange;
+}
+
+
+.edit{
+  margin-left: 100px;
+}
+.comment-text{
+  float: right;
+  padding-bottom: 10px;
+
+}
+
+.button-container{
+  width: 100%;
+  
+}
+.button-container button{
+  float: right;
+  
+}
+
+p{
+  color: #ff8217;
+  padding-left: 10px;
+}
+
+.add-button{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: orange;
+  width: 200px;
+  transition: 0.7s ease;
+}
+
+
+
+.textArea{
+  height: 100px;
+  width: 70%;
+  margin-left: 200px;
+
+  
+}
+
+
+textarea{
+  background: transparent;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  color: orange;
+  margin-right: 100px;
+  
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 10px rgba(1 1 1 / 20%);
+  border-radius: 5px;
+  width: 93%;
+}
+
+.footer{
+  margin-top: 10%;
+  background-color:  #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.footer-title{
+  font-weight: 600;
+}
+.footerinfo a{
+  text-decoration: none;
+  color: #DAA520;
+}
+
+.footer p{
+  color: #fff;
+}

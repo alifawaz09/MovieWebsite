@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=The+Nautigal:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  background-color: #fff;
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  overflow-y: scroll;
+}
+
+header::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.container{
+  width: 100%;
+  margin: auto;
+  position:absolute;
+  background-color: #000;
+  border-bottom: 1px solid #778899;
+}
+
+.logo {
+  color: #DAA520;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+}
+
+.navigation{
+
+  float: right;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 25%;
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation li a{
+  color: #fff;
+  text-decoration: none;
+  padding:5px 10px;
+  font-size: 16px;
+  transition: 0.8s ease;
+}
+
+.navigation li a:hover{
+  color: #000;
+  background-color:#DAA520;
+  border-radius: 15px;
+}
+
+
+.information{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3 {
+    color: #e96b00;
+    padding-top: 20px;
+}
+
+.information p {
+    padding: 15px;
+}
+
+
+
+.content{
+  width: 92%;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 4%;
+
+}
+
+.title h1{
+  color: #e96b00;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e96b00;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.footer{
+  margin-top: 10%;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.footer-title{
+  font-weight: 600;
+}
+.footerinfo a{
+  text-decoration: none;
+  color: #DAA520;
+}
